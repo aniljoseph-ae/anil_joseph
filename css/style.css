@@ -8,6 +8,10 @@
 
 
 /*-- Reset-Code --*/
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
 	padding: 0;
@@ -62,8 +66,12 @@ label {
 }
 
 img {
+	width: 100%;
+	padding-top: 0px;
+}
+.my-picture{
+	padding-top: 120px;
 	width: 120%;
-	padding: 120px 0 0 30px;
 }
 
 a:focus, a:hover {
@@ -355,11 +363,11 @@ a:focus, a:hover {
 }
 
 .wthreeskills-grid-1 h4 {
-	width: 40%;
+	width: 54%;
 }
 
 .wthreeskills-grid-2 h4 {
-	width: 33%;
+	width: 46%;
 }
 
 	/*-- Tabs --*/
