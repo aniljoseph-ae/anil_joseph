@@ -727,7 +727,12 @@ li.aitsaitsresumewthreeli-1 {
 }
 
 .work-right.work-right2 {
-	min-height: 185px;
+	min-height: 250px;
+	float: right;
+}
+/* Additional Class for Training and Certifications Section to adjust the space */
+.work-right.work-right21 {
+	min-height: 0px;
 	float: right;
 }
 
